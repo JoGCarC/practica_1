@@ -1,0 +1,87 @@
+# 🐍 Proyecto Python for Analytics - Módulo 1
+
+## Especialización en Python for Analytics
+
+### Desarrollado por: Jonass
+
+---
+
+## 📖 Descripción
+
+Aplicación interactiva desarrollada en **Streamlit** que integra los conceptos fundamentales del Módulo 1 de Python for Analytics:
+
+- ✅ Variables y estructuras de datos
+- ✅ Control de flujo
+- ✅ Funciones y programación funcional
+- ✅ Programación orientada a objetos (POO)
+- ✅ NumPy y Pandas
+- ✅ Visualización de datos con Plotly
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Python 3.11+**
+- **Streamlit** - Framework de aplicaciones web
+- **Pandas** - Análisis y manipulación de datos
+- **NumPy** - Cálculo numérico
+- **Plotly** - Visualización interactiva
+
+---
+
+## 📦 Instalación Local
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/[tu-usuario]/proyecto-python-analytics.git
+cd proyecto-python-analytics
+```
+
+### 2. Crear entorno virtual (opcional pero recomendado)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # En Windows: venv\Scripts\activate
+```
+
+### 3. Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Ejecutar la aplicación
+
+```bash
+streamlit run app.py
+```
+
+La aplicación se abrirá automáticamente en tu navegador en `http://localhost:8501`
+
+---
+
+## 🚀 Despliegue en Streamlit Cloud
+
+### Paso 1: Preparar el repositorio en GitHub
+
+1. Crear un repositorio en GitHub
+2. Subir todos los archivos del proyecto:
+   - `app.py`
+   - `requirements.txt`
+   - `README.md`
+   - `libreria_funciones_proyecto1.py` (opcional)
+   - `libreria_clases_proyecto1.py` (opcional)
+
+### Paso 2: Desplegar en Streamlit Cloud
+
+1. Ir a [share.streamlit.io](https://share.streamlit.io)
+2. Hacer clic en "New app"
+3. Conectar tu repositorio de GitHub
+4. Seleccionar:
+   - Repository: `tu-usuario/proyecto-python-analytics`
+   - Branch: `main`
+   - Main file path: `app.py`
+5. Hacer clic en "Deploy"
+
+¡Listo! Tu aplicación estará disponible en una URL pública.
